@@ -1,0 +1,15 @@
+# Dépendances et fichiers générés
+node_modules/
+build/
+.gradle/
+local.properties
+
+# L'APK ne se versionne pas : on le publie dans « Releases » sur GitHub
+*.apk
+*.aab
+
+# Fichiers système / éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

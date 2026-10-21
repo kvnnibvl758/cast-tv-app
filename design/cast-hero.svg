@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#3730a3"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#818cf8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Fond -->
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <circle cx="850" cy="300" r="330" fill="url(#glow)"/>
+  <circle cx="120" cy="90" r="4" fill="#c7d2fe" opacity="0.7"/>
+  <circle cx="1090" cy="110" r="5" fill="#c7d2fe" opacity="0.6"/>
+  <circle cx="990" cy="520" r="3" fill="#c7d2fe" opacity="0.7"/>
+  <circle cx="90" cy="500" r="3" fill="#c7d2fe" opacity="0.5"/>
+  <circle cx="520" cy="70" r="3" fill="#c7d2fe" opacity="0.5"/>
+
+  <!-- Télévision -->
+  <rect x="620" y="140" width="460" height="290" rx="26" fill="#0b1224" stroke="#cbd5e1" stroke-width="9"/>
+  <rect x="644" y="164" width="412" height="242" rx="12" fill="url(#screen)"/>
+  <circle cx="850" cy="285" r="52" fill="#ffffff" opacity="0.95"/>
+  <polygon points="835,255 835,315 880,285" fill="#4f46e5"/>
+  <rect x="826" y="430" width="48" height="34" fill="#94a3b8"/>
+  <rect x="760" y="464" width="180" height="16" rx="8" fill="#cbd5e1"/>
+
+  <!-- Ondes de diffusion -->
+  <g fill="none" stroke="#34d399" stroke-width="11" stroke-linecap="round">
+    <path d="M 444.6 315 A 40 40 0 0 1 444.6 355" opacity="1"/>
+    <path d="M 479.3 295 A 80 80 0 0 1 479.3 375" opacity="0.85"/>
+    <path d="M 513.9 275 A 120 120 0 0 1 513.9 395" opacity="0.65"/>
+  </g>
+  <circle cx="410" cy="335" r="12" fill="#34d399"/>
+
+  <!-- Téléphone -->
+  <rect x="215" y="170" width="170" height="330" rx="32" fill="#0b1224" stroke="#e2e8f0" stroke-width="9"/>
+  <rect x="236" y="212" width="128" height="246" rx="14" fill="url(#screen)"/>
+  <rect x="280" y="188" width="40" height="8" rx="4" fill="#475569"/>
+  <circle cx="300" cy="335" r="30" fill="#ffffff" opacity="0.95"/>
+  <polygon points="291,317 291,353 318,335" fill="#4f46e5"/>
+</svg>
