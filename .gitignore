@@ -13,3 +13,11 @@ local.properties
 Thumbs.db
 .idea/
 .vscode/
+
+# Secrets : variables d environnement et clés de signature Android
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+keystore.properties
