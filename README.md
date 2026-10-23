@@ -1,5 +1,10 @@
 # Cast TV App
 
+> Application Android (React Native) pour caster des vidéos, photos et l'écran du téléphone vers une TV.
+> Réalisée par **Naby CAMARA** — portfolio : [naby-camara.vercel.app](https://naby-camara.vercel.app)
+
+![React Native](https://img.shields.io/badge/React%20Native-0.75-61DAFB?logo=react&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white) ![Chromecast](https://img.shields.io/badge/Chromecast-supporté-4285F4?logo=googlecast&logoColor=white)
+
 App React Native personnelle (gratuite, non publiée) avec deux fonctions :
 
 - **Écran** : recopier l'écran du téléphone sur la TV (Android + iOS)
